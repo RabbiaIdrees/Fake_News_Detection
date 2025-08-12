@@ -4,8 +4,11 @@ This project focuses on detecting fake news articles using a combination of mach
 https://www.kaggle.com/code/therealsampat/fake-news-detection
 # Models:
 Three models were implemented:
+
 • Naive Bayes – lightweight probabilistic classifier achieving 93% accuracy.
+
 • Random Forest – ensemble model achieving 100% accuracy on the test set.
+
 • LSTM – deep learning sequence model achieving 99% accuracy.
 # Evaluation Metrics
 TF-IDF vectorization was used for traditional models, and tokenization with padding was applied for the LSTM. Evaluation metrics include accuracy, precision, recall, F1-score, and ROC-AUC, along with visual comparisons through bar charts and ROC curves.
